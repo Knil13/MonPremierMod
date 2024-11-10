@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import fr.knil.monpremiermod.item.ModItemGroups;
 import fr.knil.monpremiermod.item.ModItems;
 
 public class MonPremierMod implements ModInitializer {
@@ -13,7 +14,7 @@ public class MonPremierMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }

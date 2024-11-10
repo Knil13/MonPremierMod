@@ -13,10 +13,19 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 	
 	public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+	public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
+	public static final Item AIMANT = registerItem("aimant", new Item(new FabricItemSettings()));
 	
 	private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 		entries.add(RUBY);
+		entries.add(RAW_RUBY);
 	}
+	
+	private static void addItemsToToolsItemGroup(FabricItemGroupEntries entries) {
+		entries.add(AIMANT);
+	}
+	
+	
 	
 	private static Item registerItem(String name, Item item) {
 		return Registry.register(Registries.ITEM, new Identifier(MonPremierMod.MOD_ID, name), item);
@@ -26,6 +35,7 @@ public class ModItems {
 		MonPremierMod.LOGGER.info("Registering Mod Items for " + MonPremierMod.MOD_ID);
 		
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToToolsItemGroup);
 		
 	}
 }
