@@ -1,8 +1,7 @@
 package fr.knil.monpremiermod.item;
 
 import fr.knil.monpremiermod.MonPremierMod;
-import net.fabricmc.fabric.impl.itemgroup.FabricItemGroup;
-import net.minecraft.item.Item;
+import fr.knil.monpremiermod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -19,7 +18,12 @@ public class ModItemGroups {
 			.icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContent, entries) -> {
 				entries.add(ModItems.RUBY);
 				entries.add(ModItems.RAW_RUBY);
+				
 				entries.add(Items.DIAMOND);
+				
+				entries.add(ModBlocks.RUBY_BLOCK);
+				entries.add(ModBlocks.RAW_RUBY_BLOCK);
+				
 			} ).build());
 	
 	public static void registerItemGroups(){

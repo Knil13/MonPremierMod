@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"R L",
+		"# #",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:iron_ingot"
+		},
+		"R": {
+			"item": "monpremiermod:ruby"
+		},
+		"L": {
+			"item": "minecraft:lapis_lazuli"
+		}
+	},
+	"result": {
+		"item": "monpremiermod:aimant"
+	}
+}

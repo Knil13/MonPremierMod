@@ -1,5 +1,10 @@
 {
-	"item.monpremiermod.ruby": "My first Ruby",
-	"item.monpremiermod.raw_ruby": "Ruby Shard",
-	"item.monpremiermod.aimant": "Magnet"
+	"item.monpremiermod.ruby": "Ruby",
+	"item.monpremiermod.raw_ruby": "Raw Ruby",
+	"item.monpremiermod.aimant": "Magnet",	
+
+	"block.monpremiermod.ruby_block": "Block of Ruby",
+	"block.monpremiermod.raw_ruby_block": "Block of Raw Ruby",
+
+	"itemgroup.ruby": "Ruby MonPremierMod Group"
 }
