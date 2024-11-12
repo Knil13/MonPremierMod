@@ -16,10 +16,19 @@ public class ModBlocks {
 	
 	
 	public static final Block RUBY_BLOCK = registerBlock("ruby_block", 
-			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK))); 
+			new Block(FabricBlockSettings
+					.copyOf(Blocks.IRON_BLOCK)
+					.requiresTool()
+					.sounds(BlockSoundGroup.AMETHYST_BLOCK)
+					)); 
+					
 	
 	public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block", 
-			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK))); 
+			new Block(FabricBlockSettings
+					.copyOf(Blocks.IRON_BLOCK)
+					.requiresTool()
+					.sounds(BlockSoundGroup.AMETHYST_BLOCK)
+					)); 
 
 	
 	private static Block registerBlock(String name, Block block) {
