@@ -1,7 +1,10 @@
 {
-	"item.monpremiermod.ruby": "Mon premier Rubis",
-	"item.monpremiermod.raw_ruby": "Morceau de rubis",
+	"item.monpremiermod.ruby": "Rubis",
+	"item.monpremiermod.raw_ruby": "Rubis abimé",
 	"item.monpremiermod.aimant": "Aimant super puissance",
+	
+	"block.monpremiermod.ruby_block": "Block de rubis",
+	"block.monpremiermod.raw_ruby_block": "Block de rubis Brut",
 	
 	"itemgroup.ruby": "Groupe de MonPremierMod"
 }
