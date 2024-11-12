@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "monpremiermod:block/ruby_block"
+	}
+}
