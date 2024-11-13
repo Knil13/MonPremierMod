@@ -5,6 +5,9 @@
 
 	"block.monpremiermod.ruby_block": "Block of Ruby",
 	"block.monpremiermod.raw_ruby_block": "Block of Raw Ruby",
+	
+	"block.monpremiermod.diamond_detector": "Diamond Detector",
+	"block.monpremiermod.magic_stick": "Magic Stick",
 
 	"itemgroup.ruby": "Ruby MonPremierMod Group"
 }

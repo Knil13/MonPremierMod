@@ -47,13 +47,13 @@ public class DiamondDetectorItem extends Item {
 	}
 
 	private void outputValuableCoordinates(BlockPos blockPos, PlayerEntity player, Block block) {
-		player.sendMessage(Text.literal("Found " + block.asItem().getName().getString() +" at (" + blockPos.getX() + ", " + blockPos.getY() + ", " + blockPos.getZ() + ")"), false);
+		player.sendMessage(Text.literal("Found " + block.asItem().getName().getString() + " at (" + blockPos.getX() + ", " + blockPos.getY() + ", " + blockPos.getZ() + ")"), false);
 		
 	}
 
 	private boolean isValuableBlock(BlockState state) {
 				
-		return state.isOf(Blocks.DIAMOND_ORE);
+		return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
 	}
 
 }

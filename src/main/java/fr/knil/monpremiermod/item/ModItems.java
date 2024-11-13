@@ -1,6 +1,8 @@
 package fr.knil.monpremiermod.item;
 
 import fr.knil.monpremiermod.MonPremierMod;
+import fr.knil.monpremiermod.item.custom.DiamondDetectorItem;
+import fr.knil.monpremiermod.item.custom.magic_stick;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -15,6 +17,8 @@ public class ModItems {
 	public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
 	public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 	public static final Item AIMANT = registerItem("aimant", new Item(new FabricItemSettings()));
+	public static final Item DIAMOND_DETECTOR = registerItem("diamond_detector", new DiamondDetectorItem(new FabricItemSettings().maxDamage(64)));
+	public static final Item MAGIC_STICK = registerItem("magic_stick", new magic_stick(new FabricItemSettings().maxDamage(64)));
 	
 	private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 		entries.add(RUBY);

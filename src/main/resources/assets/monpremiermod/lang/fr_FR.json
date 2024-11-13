@@ -6,5 +6,10 @@
 	"block.monpremiermod.ruby_block": "Block de rubis",
 	"block.monpremiermod.raw_ruby_block": "Block de rubis Brut",
 	
+	"block.monpremiermod.diamond_detector": "Detecteur de diamand",
+	"block.monpremiermod.magic_stick": "Baguette Magique",
+	
+	
+	
 	"itemgroup.ruby": "Groupe de MonPremierMod"
 }
