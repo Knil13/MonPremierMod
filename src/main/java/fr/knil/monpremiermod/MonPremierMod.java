@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import fr.knil.monpremiermod.block.ModBlocks;
 import fr.knil.monpremiermod.item.ModItemGroups;
 import fr.knil.monpremiermod.item.ModItems;
+import fr.knil.monpremiermod.util.ModCommands;
 
 public class MonPremierMod implements ModInitializer {
 	public static final String MOD_ID = "monpremiermod";
@@ -19,5 +20,7 @@ public class MonPremierMod implements ModInitializer {
 		
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		
+		ModCommands.registerCommands();
 	}
 }
